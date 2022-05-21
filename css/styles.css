@@ -62,7 +62,13 @@ h1 {
   text-transform: uppercase;
 }
 .main-button {
+  cursor: pointer;
   background-color: #f5f4fa;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .main-button:hover,
 .main-button:focus {
@@ -77,7 +83,6 @@ h1 {
   text-transform: uppercase;
 }
 p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -86,8 +91,90 @@ p {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+.name-surname {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-members {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+footer {
+  background-color: #2f303a;
+}
+.footer-company-logo {
+  font-family: "Raleway";
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.footer-company-logo a {
+  font-family: "Raleway";
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.footer-company-logo a:hover,
+.footer-company-logo a:focus {
+  color: #2196f3;
+}
+address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact-footer {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer {
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.filter-button {
+  cursor: pointer;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.product {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.product-type {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
