@@ -24,10 +24,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.company-logo a:hover,
-.company-logo a:focus {
-  color: #2196f3;
-}
+
 .site-navigation {
   font-weight: 500;
   font-size: 14px;
@@ -63,18 +60,15 @@ h1 {
 }
 .main-button {
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: #2196f3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
 }
-.main-button:hover,
-.main-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
+
 .paragraf-title {
   font-weight: 700;
   font-size: 14px;
@@ -87,6 +81,9 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.our-team {
+  background-color: #f5f4fa;
 }
 h2 {
   font-weight: 700;
@@ -127,10 +124,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.footer-company-logo a:hover,
-.footer-company-logo a:focus {
-  color: #2196f3;
-}
+
 address {
   font-style: normal;
   font-size: 14px;
